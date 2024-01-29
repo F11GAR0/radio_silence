@@ -1,0 +1,57 @@
+.headerContainer {
+    height: 37px;
+    width: 100%;
+    display: flex;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #202020;
+}
+
+.buttonBlock {
+    height: inherit;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.button {
+    position: relative;
+    height: inherit;
+    width: 353px;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #808080;
+}
+
+.button:hover {
+    background-color: #CF9056;
+}
+
+.buttonIcon {
+    width: 85%;
+    height: 85%;
+    height: inherit;
+    align-self: center;
+}
+
+.appLogoContainer {
+    background-color: #252AA9;
+    position: absolute;
+    left: 0px;
+    height: inherit;
+    width: calc(height);
+}
+
+.profile {
+    position: absolute;
+    right: 0px;
+    height: inherit;
+    width: calc(height);
+    background-color: #808080;
+}
